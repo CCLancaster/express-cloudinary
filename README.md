@@ -6,12 +6,14 @@
 4. ```npm install express``` (and other dependencies like dotenv)
 
     Dependencies you will need:
-    ```dotenv
+    ```
+    dotenv
     express
     ejs
     express-ejs-layouts
     multer
-    cloudinary```
+    cloudinary
+    ```
 
 5. create .gitignore (manually OR via terminal ```touch .gitignore```)
 6. ```echo node_modules >> .gitignore```
@@ -26,9 +28,12 @@ Next…
 2. Create instance of express (app)
 3. Listen for app
 4. Stubb out routes…
+
 NOTE: use nodemon to auto restart server on save (npx nodemon index.js)
 
+Finally...
 
+Continue with Sara's Cloudinary Tutorial (you can skip step 2 now though)...
 From [Sara King's](https://github.com/009Kings) GitHub [code-along](https://github.com/009Kings/express-cloudinary)
 
 # Cloudinary Tutorial
